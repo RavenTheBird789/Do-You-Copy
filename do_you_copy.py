@@ -148,9 +148,9 @@ def trademark(main):
 @trademark
 def main():
     while True:
-        print("Option 1: HTTP Probe a given link")
-        print("Option 2: HTTP Probe a given link and specific port")
-        print("Option 3: HTTP Probe a given link and a range of ports")
+        print("Option 1: HTTP Probe a given URL")
+        print("Option 2: HTTP Probe a given URL and port")
+        print("Option 3: HTTP Probe a given URL and a range of ports")
         print("Option 4: Exit")
         prompt = input("Please choose an option (1-4): ")
         if prompt == "1":
