@@ -21,3 +21,4 @@ Execution of Software
 
 Important Information:
 * You must paste or type the whole URL of the website that you're probing (ex: https://example.com instead of example or example.com) otherwise, you'll get a requests.exceptions.MissingSchema error
+* KeyboardInterrupt (Ctrl + C) can be used to stop the program from running while probing the given URL
