@@ -1,7 +1,7 @@
 # Do-You-Copy
 Python script for a HTTP Probing Reconnaissance Tool
 
-![Alt Text](images/Screenshot_20260922_133217_Termux.jpg)
+![Alt Text](images/Screenshot_20260922_144111_Termux.jpg)
 
 Prerequisites
 * Ensure that the latest version of python is installed in your terminal (python 3.x)
