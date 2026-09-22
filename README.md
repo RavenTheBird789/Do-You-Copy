@@ -23,4 +23,7 @@ Execution of Software
 
 Important Information:
 * You must paste or type the hostname or URL of the website that you're probing (ex: https://example.com or example.com instead of just example) otherwise, you'll get an error
-* KeyboardInterrupt (Ctrl + C) can be used to stop the program from running while probing the given URL
+* KeyboardInterrupt (Ctrl + C) can be used to stop the program from running while probing the given hostname or URL
+
+Note:
+* If no input is provided for the start and end ports for Option 3, the default values will be 0 and 1024 respectively
