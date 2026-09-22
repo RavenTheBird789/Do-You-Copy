@@ -33,16 +33,18 @@ def qm_art():
         print(yellow(bold((space * 6) + line)))
 
 def basic_probe(target_url, enum):
+    i = 0
     for _ in range(enum):
+        i += 1
         response = requests.get(target_url)
         if response.status_code == 200:
-            print(green(f"{target_url} is currently responding! Response: {response.status_code}"))
+            print(green(f"{i}. {target_url} is currently responding! Response: {response.status_code}"))
         elif response.status_code == 404:
-            print(red(f"{target_url} is currently NOT responding! Response: {response.status_code}"))
+            print(red(f"{i}. {target_url} is currently NOT responding! Response: {response.status_code}"))
         elif response.status_code == 429:
-            print(red(f"You have hit or exceeded the rate limit for {target_url} Response: {response.status_code}"))
+            print(red(f"{i}. You have hit or exceeded the rate limit for {target_url} Response: {response.status_code}"))
         else:
-            print(yellow(f"Response: {response.status_code}"))
+            print(yellow(f"{i}. Response: {response.status_code}"))
 
 def check_port(host, port, timeout: float = 3.0) -> bool:
     """Check if a TCP port is open on the given host."""
