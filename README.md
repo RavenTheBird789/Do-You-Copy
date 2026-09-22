@@ -20,4 +20,4 @@ Execution of Software
 * To run the program, simply type "python3 do_you_copy.py" in your terminals command line (Note: a shortcut can be created in a terminal session using the bash alias command. Ex: alias hp="python3 do_you_copy.py")
 
 Important Information:
-* You must paste or type the whole URL of the website that you're probing (ex: https://website.com instead of website or website.com) otherwise, you'll get a requests.exceptions.MissingSchema error
+* You must paste or type the whole URL of the website that you're probing (ex: https://example.com instead of example or example.com) otherwise, you'll get a requests.exceptions.MissingSchema error
