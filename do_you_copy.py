@@ -182,9 +182,7 @@ def basic_probe(target_host: str, count: int):
             print(red(f"{i}. Request error: {error}"))
 
 def probe_http_methods(target_host: str, port: int):
-    """
-    Check a TCP port and then probe safe HTTP methods.
-    """
+    """Check a TCP port and then probe safe HTTP methods."""
 
     parsed = parse_target_host(target_host)
 
@@ -387,11 +385,11 @@ def main():
 
             try:
                 start_port_input = input(
-                    "Start port [0]: "
+                    "Start port: "
                 ).strip()
 
                 end_port_input = input(
-                    "End port [1024]: "
+                    "End port: "
                 ).strip()
 
                 start_port = (
