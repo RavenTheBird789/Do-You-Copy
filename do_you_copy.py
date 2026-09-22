@@ -178,16 +178,16 @@ def main():
         elif prompt == "4":
             os.system("cls" if os.name == 'nt' else 'clear')
             print(green("Exiting"))
-            time.sleep(0.5)
+            time.sleep(0.05)
             os.system("cls" if os.name == 'nt' else 'clear')
             print(green("Exiting" + ("." * 1)))
-            time.sleep(0.5)
+            time.sleep(0.05)
             os.system("cls" if os.name == 'nt' else 'clear')
             print(green("Exiting" + ("." * 2)))
-            time.sleep(0.5)
+            time.sleep(0.05)
             os.system("cls" if os.name == 'nt' else 'clear')
             print(green("Exiting" + ("." * 3)))
-            time.sleep(0.5)
+            time.sleep(0.05)
             os.system("cls" if os.name == 'nt' else 'clear')
             os._exit(0);
         else:
