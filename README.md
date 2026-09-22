@@ -1,6 +1,8 @@
 # Do-You-Copy
 Python script for a HTTP Probing Reconnaissance Tool
 
+![Alt Text](images/Screenshot_20260922_133217_Termux.jpg)
+
 Prerequisites
 * Ensure that the latest version of python is installed in your terminal (python 3.x)
 * Ensure you have a virtual env for the required python libraries (If you don't, one can easily be created by executing the command "python3 -m venv env")
