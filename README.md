@@ -16,7 +16,7 @@ Installation
 1. To install, simply type "git clone https://github.com/RavenTheBird789/Do-You-Copy" in your terminals command line
 2. Execute the command "source env/bin/activate" to activate your virtual env
 3. Execute the command "cd Do-You-Copy" to enter the directory of this project
-4. While in the "Do-You-Copy" directory execute the command "pip install -r requirements.txt"
+4. While in the Do-You-Copy directory execute the command "pip install -r requirements.txt"
 
 Execution of Software
 * To run the program, simply type "python3 do_you_copy.py" in your terminals command line (Note: a shortcut can be created in a terminal session using the bash alias command. Ex: alias hp="python3 do_you_copy.py")
