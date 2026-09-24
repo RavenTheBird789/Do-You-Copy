@@ -1,4 +1,4 @@
-# Do-You-Copy 👀❔️
+# Do-You-Copy ⁉️
 Python script for a HTTP Probing Reconnaissance Tool
 
 ![Alt Text](images/Screenshot_20260922_144111_Termux.jpg)
