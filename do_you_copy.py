@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # Do You Copy?
 # HTTP Probing CLI Tool
 
