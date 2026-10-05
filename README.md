@@ -3,10 +3,10 @@ HTTP Probing Reconnaissance Tool
 
 ![Alt Text](images/Screenshot_20260922_144111_Termux.jpg)
 
-Requirements
+Requirements:
 * Ensure that the latest version of python is installed in your terminal (python 3.x)
 
-Recommendations
+Recommendations:
 * Use a VPN while using this tool (Proton or Mullvad are encouraged)
 * Enable TOR in your terminal
 * Run proxychains4 while executing the software (This comes pre-installed with Kali-Linux)
