@@ -30,7 +30,7 @@ python3 do_you_copy.py
 Optional shortcut
 
 ```bash
-python3 do_you_copy.py
+alias copy="python3 do_you_copy.py"
 ```
 
 Notes:
