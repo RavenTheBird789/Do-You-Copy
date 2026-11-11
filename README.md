@@ -4,7 +4,7 @@ HTTP Probing Reconnaissance Tool
 ![Alt Text](images/Screenshot_20260922_144111_Termux.jpg)
 
 Requirements:
-* Ensure that the latest version of python is installed in your terminal (python 3.x)
+* Ensure that the latest version of python is installed in your terminal (python 3.9+)
 
 Recommendations:
 * Use a VPN while using this tool (Proton or Mullvad are encouraged)
